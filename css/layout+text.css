@@ -1,3 +1,4 @@
 body {
-    background: url('../images/background.jpg'), repeat-x, center;
+    background: url('images/background.jpg'), repeat-x, center;
+    /* gh-pages*/
 }

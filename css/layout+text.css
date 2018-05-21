@@ -1,18 +1,4 @@
-@media screen and (min-width: 1000px) {
-    #all {
-        width: 1000px;
-        margin: 0 auto;
-    }
-    #all > header {
-        border-top: solid 4px #9966FF;
-        border-bottom: solid 4px #9966FF;
-        outline: double 7px rgb(133, 255, 102);
-        color: black;
-        font-weight: bold;
-        font-size: 15pt;
-    }
-    main {
-        color: silver;
-        padding-left: 10px;
-    }
-} 
+body {
+    background: url('../images/background.jpg'), repeat-x, center;
+    
+}

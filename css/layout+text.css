@@ -1,4 +1,5 @@
 body {
     background: url('/images/background.jpg'), repeat-x, center;
+    background-size: contain;
     
 }

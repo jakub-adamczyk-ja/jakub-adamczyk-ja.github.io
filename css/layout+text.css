@@ -5,13 +5,24 @@ body {
 #all {
     width:1000px;
     margin:0 auto;
+    /* Z powodu niejednolitej obsługi gradientów oraz dużej złożoności tworzenia, użyłem do gradientu niniejszego generatora: */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,7db9e8+100&0.26+10,0.62+10,0.26+20,0.26+20,0.93+31,0.26+46,0.48+57,0+72,0+72,0.48+79,0.48+79,0+100 */
+background: -moz-linear-gradient(45deg, rgba(255,255,255,0.62) 1%, rgba(243,249,253,0.62) 10%, rgba(230,242,251,0.26) 20%, rgba(216,234,248,0.93) 31%, rgba(196,223,245,0.26) 46%, rgba(182,215,242,0.48) 57%, rgba(162,205,239,0) 72%, rgba(153,200,237,0.48) 79%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.62) 1%,rgba(243,249,253,0.62) 10%,rgba(230,242,251,0.26) 20%,rgba(216,234,248,0.93) 31%,rgba(196,223,245,0.26) 46%,rgba(182,215,242,0.48) 57%,rgba(162,205,239,0) 72%,rgba(153,200,237,0.48) 79%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(255,255,255,0.62) 1%,rgba(243,249,253,0.62) 10%,rgba(230,242,251,0.26) 20%,rgba(216,234,248,0.93) 31%,rgba(196,223,245,0.26) 46%,rgba(182,215,242,0.48) 57%,rgba(162,205,239,0) 72%,rgba(153,200,237,0.48) 79%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9effffff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 #all > header {
     background-color: white;
     box-shadow:5px 5px 5px 4px;
 }
+#all > header > p {
+    margin-bottom: 5px;
+    width: 90%;
+}
 #all > header .en {
     background-color: #9900CC;
     box-shadow:3px 3px 3px 2px;
 }
+
 

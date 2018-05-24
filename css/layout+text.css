@@ -1,6 +1,16 @@
 body {
-
     background: url('/images/background.jpg'), repeat-x, center;
-    background-size: cover;
-    
+    background-size: cover; 
+}
+#all {
+    width:1000px;
+    margin:0 auto;
+}
+#all > header {
+    background-color: white;
+    box-shadow:5px 5px 5px 4px;
+}
+#all > header .en {
+    background-color: #9900CC;
+    box-shadow:3px 3px 3px 2px;
 }
